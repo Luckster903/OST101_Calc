@@ -129,7 +129,6 @@
         function calculate() {
             try {
                 const expression = document.getElementById('display').value;
-                // Replace × with * for proper evaluation
                 const result = eval(expression.replace(/×/g, '*'));
                 document.getElementById('display').value = result;
             } catch (error) {
