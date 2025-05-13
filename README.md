@@ -1,1 +1,1 @@
-# OST101_Calc
+Just a simple calculator
